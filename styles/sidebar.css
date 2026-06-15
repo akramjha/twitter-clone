@@ -1,0 +1,171 @@
+.sidebar {
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 402px;
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(226, 216, 216);
+    border-style: solid;
+}
+.nav-bar {
+    width: 251px;
+    height: 588px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+.twitter-button-logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 4px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.15s;
+}
+.twitter-button-logo:hover {
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.twitter-logo {
+    height: 30px;
+    width: 50px;
+}
+.home-img {
+    height: 26px;
+    width: 26px;
+
+}
+.path-home {
+    width: 24px;
+    height: 22px;
+}
+.option-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    transition: 0.15s;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.option-list:hover {
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.home-button {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+.home-word {
+    font-size: 20px;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+.tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    justify-content: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 225px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.tweet-button:hover {
+    background-color: rgb(25, 132, 204);
+}
+
+body {
+    padding-left: 396px;
+    padding-top: 53px;
+    background-color: white;
+    height: 3000px;
+}
+.my-profile {
+    height: 40px;
+    border-radius: 20px;
+    
+}
+.profile-my {
+    position: absolute;
+    bottom: -10px;
+    width: 220px;
+    height: 64px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.profile-my:hover {
+    border-radius: 20px;
+    background-color: rgba(228, 222, 222, 0.952);
+}
+.myusername {
+    margin-left: 10px;
+}
+.more-icons-profile {
+    height: 36px;
+    width: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.akrm {
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+}
+.akrm-username {
+    font-size: 15px;
+    font-family: arial;
+    color: #536471;
+} 
+
+@media (min-width: 1600px) {
+    .sidebar {
+        position: fixed;
+        display: flex;
+        justify-content: end;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 594px;
+        background-color: white;
+    }
+  }
+
+@media (min-width: 1600px) {
+    body {
+        padding-left: 588px;
+        padding-top: 53px;
+        background-color: white;
+        height: 3000px;
+    }
+  }
+

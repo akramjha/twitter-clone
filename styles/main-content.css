@@ -1,0 +1,121 @@
+.video-1 {
+    width: 596px;
+    height: 335px;
+}
+.images1 {
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-tweet {
+    width: 598px;
+}
+.main-tweet-timeline {
+    width: 566px;
+    bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    height: 450px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(226, 216, 216);
+}
+.main-tweet-timeline2 {
+    width: 566px;
+    bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    height: 615px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(226, 216, 216);
+}
+.profile-info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6px;
+}
+.profile-picture2 {
+    height: 48px;
+    margin-right: 11px;
+    
+}
+
+.kazuha-profile {
+    height: 48px;
+    border-radius: 24px;
+    width: 48px;
+    object-fit: cover;
+}
+.user-name {
+    width: 566px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.more-icons {
+    height: 18px;
+    width: 18px;
+}
+.profile-name {
+    display: flex;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 700;
+    height: 18px;
+    margin-bottom: 2px;
+}
+.profile-username {
+    font-size: 15px;
+    font-family: arial;
+    color: #536471;
+}
+.bluetick {
+    height: 16px;
+    margin-left: 3px;
+}
+.caption-tweet {
+    font-size: 15px;
+    font-family: arial;
+}
+.img-video {
+    margin-left: -16px;
+    margin-top: 6px;
+}
+.img-video2 {
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-top: 6px;
+    background-color: black;
+    width: 599px;
+    display: flex;
+    justify-content: center;
+}
+.like-icon-row {
+    height: 18px;
+}
+.like-button-row {
+    display: flex;
+    width: 566px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 7px;
+}
+.retweet-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.amount-likes-retweets {
+    font-size: 13px;
+    padding-left: 6px;
+}
